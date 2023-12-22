@@ -1,0 +1,12 @@
+spring:
+  #  main:
+  #    log-startup-info: false
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/monster_db
+    username: root
+    password: Winsen15!!!!
+  jpa:
+    hibernate:
+      ddl-auto: create #update
+    show-sql: true
